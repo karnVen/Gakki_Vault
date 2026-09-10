@@ -1,0 +1,12 @@
+# Windows zone identifier files
+*:Zone.Identifier
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Editor folders if created later
+.vscode/
+.idea/
