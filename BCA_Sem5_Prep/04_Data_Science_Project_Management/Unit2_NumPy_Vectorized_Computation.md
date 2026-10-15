@@ -132,14 +132,14 @@ print("NumPy + NumPy (Element-wise Addition):", np.array([1, 2]) + np.array([3, 
 arr = np.array([[10, 20, 30], [40, 50, 60]], dtype=np.int32)
 ```
 
-| Attribute | Meaning / Description | Value for `arr` |
-| :--- | :--- | :--- |
-| `arr.ndim` | Number of axes / dimensions in the array. | `2` |
-| `arr.shape` | Tuple of integers indicating size along each axis. | `(2, 3)` (2 rows, 3 cols) |
-| `arr.size` | Total number of elements across all dimensions ($\prod \text{shape}$). | `6` |
-| `arr.dtype` | Data type descriptor of the elements. | `int32` |
-| `arr.itemsize`| Length of one array element in bytes. | `4` bytes |
-| `arr.nbytes` | Total memory consumed by array buffer (`size * itemsize`). | `24` bytes ($6 \times 4$) |
+| Attribute      | Meaning / Description                                                  | Value for `arr`           |
+| :------------- | :--------------------------------------------------------------------- | :------------------------ |
+| `arr.ndim`     | Number of axes / dimensions in the array.                              | `2`                       |
+| `arr.shape`    | Tuple of integers indicating size along each axis.                     | `(2, 3)` (2 rows, 3 cols) |
+| `arr.size`     | Total number of elements across all dimensions ($\prod \text{shape}$). | `6`                       |
+| `arr.dtype`    | Data type descriptor of the elements.                                  | `int32`                   |
+| `arr.itemsize` | Length of one array element in bytes.                                  | `4` bytes                 |
+| `arr.nbytes`   | Total memory consumed by array buffer (`size * itemsize`).             | `24` bytes ($6 \times 4$) |
 
 ---
 
