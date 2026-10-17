@@ -150,6 +150,7 @@
 * [**Unit I: Introduction to Data Warehousing**](./BCA_Sem5_Prep/06_Data_Warehousing_and_Mining/Unit1_Introduction_to_Data_Warehousing.md) — Bill Inmon's 4 characteristics (Subject-Oriented, Integrated, Time-Variant, Non-Volatile) and OLTP vs OLAP comparison table.
 * [**Unit II: Architecture & OLAP Operations**](./BCA_Sem5_Prep/06_Data_Warehousing_and_Mining/Unit2_Data_Warehouse_Architecture_and_OLAP.md) — 3-Tier Architecture, EDW vs Data Mart vs ODS, Star Schema vs Snowflake Schema vs Fact Constellation, and 5 OLAP operations (Roll-up, Drill-down, Slice, Dice, Pivot).
 * [**Unit III: Data Mining Concepts & Apriori**](./BCA_Sem5_Prep/06_Data_Warehousing_and_Mining/Unit3_Data_Mining_Concepts_and_Techniques.md) — 7-step KDD process, Association Rule Mining & Apriori property (Support/Confidence), and Classification vs Clustering.
+* [**⭐ Master Exam Question Bank & Quick Revision**](./BCA_Sem5_Prep/06_Data_Warehousing_and_Mining/Master_Exam_Question_Bank_and_Quick_Revision.md) — 30-minute rapid review flashcards, 7 master comparison tables, formula sheet, Top 20 most expected university questions with model answers, and 50 practice MCQs.
 
 ---
 
@@ -174,7 +175,10 @@
 
 ## 🧠 The Alvar Method Learning Framework
 
-Every unit note in **Gakki_Vault** adheres to the pedagogical **Alvar Method (Probe $ightarrow$ Plan $ightarrow$ Teach $ightarrow$ Lock-in)** to ensure active recall:
+Every unit note in **Gakki_Vault** adheres to the pedagogical **Alvar Method (Probe $
+ightarrow$ Plan $
+ightarrow$ Teach $
+ightarrow$ Lock-in)** to ensure active recall:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
