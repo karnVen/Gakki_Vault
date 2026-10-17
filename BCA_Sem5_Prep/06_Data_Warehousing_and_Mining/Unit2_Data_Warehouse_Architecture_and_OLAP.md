@@ -39,13 +39,13 @@ Draw this clear diagram in the exam:
 
 ## 🔥 2. ROLAP vs. MOLAP vs. HOLAP (Guaranteed 5 Marks)
 
-| Feature | ROLAP (Relational OLAP) | MOLAP (Multidimensional OLAP) | HOLAP (Hybrid OLAP) |
-| :--- | :--- | :--- | :--- |
+| Feature                | ROLAP (Relational OLAP)                                 | MOLAP (Multidimensional OLAP)                                   | HOLAP (Hybrid OLAP)                                               |
+| :--------------------- | :------------------------------------------------------ | :-------------------------------------------------------------- | :---------------------------------------------------------------- |
 | **How It Stores Data** | Inside standard **relational tables** (Star/Snowflake). | Inside pre-computed **multidimensional matrix arrays (cubes)**. | **Both:** Detailed data in relational tables; summaries in cubes. |
-| **How Queries Work** | Generates dynamic SQL queries on the fly. | Direct fast memory/array lookup. | Summary queries hit cubes; detail queries hit relational DB. |
-| **Speed** | Moderate (table joins take time). | **Blazing fast (sub-second)**. | Fast for summaries, moderate for detail. |
-| **Scalability** | **Huge (Terabytes to Petabytes)**. | Limited (struggles with massive atomic data). | High balanced scalability. |
-| **Big Problem** | Slow on massive multi-table joins. | **Cube Sparsity:** Wastes huge storage on empty cells. | High system configuration complexity. |
+| **How Queries Work**   | Generates dynamic SQL queries on the fly.               | Direct fast memory/array lookup.                                | Summary queries hit cubes; detail queries hit relational DB.      |
+| **Speed**              | Moderate (table joins take time).                       | **Blazing fast (sub-second)**.                                  | Fast for summaries, moderate for detail.                          |
+| **Scalability**        | **Huge (Terabytes to Petabytes)**.                      | Limited (struggles with massive atomic data).                   | High balanced scalability.                                        |
+| **Big Problem**        | Slow on massive multi-table joins.                      | **Cube Sparsity:** Wastes huge storage on empty cells.          | High system configuration complexity.                             |
 
 ---
 
